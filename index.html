@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Newsweb</title>
+    <!-- icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!---css style-->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./img/logo.png" width="120px" />
+
+      <div class="inputSearch desktop">
+        <form id="searchForm">
+          <input type="text" placeholder="Type to search..." id="searchInput" />
+          <span> <i class="fa-solid fa-search"></i></span>
+        </form>
+      </div>
+      <nav class="desktop">
+        <ul>
+          <li onclick="Search('ipl2023')">Home</li>
+          <li onclick="Search('Holiday Tet')">Tet</li>
+          <li onclick="Search('food')"><a href=""></a>Food</li>
+          <li onclick="Search('movies')"><a href="./html/login.html">Login</a></li>
+          <li onclick="Search('business')" ><a href="./html/Register.html">Register</a></li>
+        </ul>
+      </nav>
+
+      <div class="menuBtn">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+
+      <!------>
+      <div class="mobile hidden">
+        <nav>
+          <ul>
+            <li onclick="Search('ipl2023')">Home</li>
+            <li onclick="Search('Holiday Tet')">Tet</li>
+            <li onclick="Search('food')">Food</li>
+            <li onclick="Search('movies')"><a href="./html/login.html">Login</a></li>
+            <li onclick="Search('business')"><a href="./html/Register.html">Register</a></li>
+          </ul>
+        </nav>
+        <div class="inputSearch">
+        <form id="searchFormMobile" id="searchInputMobile">
+          <input type="text" placeholder="Type to search..." />
+          <span> <i class="fa-solid fa-search"></i></span>
+        </div>
+        </form>
+      </div>
+    </header>
+
+    <!-- main  -->
+
+    <main></main>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+        <div class="footer-content">
+            <h3>Contact Me</h3>
+            <p>Email: phamminhan1709@gmail.com</p>
+            <br>
+            <p>Phone number : 0705785999</p>
+            <br>    
+            <p>Address: Khương Đình, Thanh Xuân, Hà Nội</p>
+            </div>
+        <div class="footer-content">
+            <div class="icons">
+                <h3>Follow Me</h3>
+                <li><a href="https://www.facebook.com/profile.php?id=100087231216509&locale=vi_VN"><i class='bx bxl-facebook-circle' ></i></a></li>
+                <li><a href="https://twitter.com/?lang=vi"><i class='bx bxl-twitter' ></i></a></li>
+                <li><a href="https://www.instagram.com/phamngocminh1234554321/"><i class='bx bxl-instagram-alt' ></i></a></li>
+                <li><a href="https://www.youtube.com/"><i class='bx bxl-youtube'></i></a></i></li>
+                <li><a href="https://discord.com/"><i class='bx bxl-discord-alt' ></i></a></li>
+                <li><a href="https://www.tiktok.com/@phamngocminh399"><i class='bx bxl-tiktok' ></i></a></li>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
